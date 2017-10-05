@@ -7,8 +7,8 @@
   <Item>
       <modelName>state_charger</modelName>
       <txdName>state_charger</txdName>
-      <handlingId>POLICE</handlingId>
-      <gameName>POLICE4</gameName>
+      <handlingId>POLICE2</handlingId>
+      <gameName>SHERIFF</gameName>
       <vehicleMakeName />
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
@@ -16,7 +16,7 @@
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected />
       <ptfxAssetName>null</ptfxAssetName>
-	  <audioNameHash>buffalo2</audioNameHash>
+      <audioNameHash>POLICE2</audioNameHash>
       <layout>LAYOUT_STANDARD</layout>
       <coverBoundOffsets>SHERIFF_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
@@ -134,12 +134,5 @@
         <Item>STD_POLICE_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
-  
   </InitDatas>
-  <txdRelationships>
-  <Item>
-      <parent>vehicles_poltax_interior</parent>
-      <child>sasp</child>
-    </Item>
-  </txdRelationships>
-</CVehicleModelInfo__InitDataList>
+ </CVehicleModelInfo__InitDataList>
